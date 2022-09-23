@@ -14,8 +14,8 @@ def pencil_sketch(img):
     final_img = dodge(img_gray,img_smoothing)
     return(final_img)
 
-st.title('pencilsketch app')
-st.write('this app converts photos to pencil sketches')
+st.title('Pencilsketch App')
+st.write('This app converts photos to pencil sketches')
 
 file_image = st.sidebar.file_uploader('Upload photos',type = ['jpeg','jpg','png','jfif'])
 if file_image is None:
